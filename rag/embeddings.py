@@ -1,9 +1,4 @@
-"""Embedding backends.
 
-* sentence-transformers (default): real semantic embeddings, CPU, cached locally.
-* hash: tiny deterministic bag-of-words embedder used by tests / offline demos.
-  It is NOT semantic; it only matches shared words.
-"""
 import hashlib
 import math
 import re
