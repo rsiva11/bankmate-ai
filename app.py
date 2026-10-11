@@ -1,4 +1,3 @@
-"""BankMate AI: Streamlit dashboard + chat.  Run: streamlit run app.py"""
 import pandas as pd
 import streamlit as st
 
@@ -113,7 +112,6 @@ with st.sidebar:
     st.divider()
     st.markdown(f'<div class="disclaimer">{DISCLAIMER}</div>', unsafe_allow_html=True)
 
-# ---------------- header ----------------
 st.title("BankMate AI")
 st.markdown('<div class="subtitle">Privacy-Aware Multi-Agent Banking Assistant</div>', unsafe_allow_html=True)
 st.markdown('<div class="disclaimer">Educational simulation · synthetic data only · not an official SBI '
@@ -121,7 +119,6 @@ st.markdown('<div class="disclaimer">Educational simulation · synthetic data on
 
 tab_dash, tab_chat = st.tabs(["📊 Dashboard", "💬 Assistant chat"])
 
-# ---------------- dashboard ----------------
 with tab_dash:
     summary = banking_agent.account_balance(customer_id)
     if not summary.ok:
@@ -179,7 +176,6 @@ with tab_dash:
                 (st.success if cnd["met"] else st.error)(f"{cnd['rule']}. {cnd['detail']}")
             st.caption(d["disclaimer"])
 
-# ---------------- chat ----------------
 with tab_chat:
     st.caption("Try a suggested question or type your own. Banking questions use your synthetic account; "
                "privacy questions are answered from public SBI documents with citations.")
