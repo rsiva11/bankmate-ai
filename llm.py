@@ -1,4 +1,3 @@
-"""Minimal Ollama client (local inference only; no data leaves the machine)."""
 import requests
 
 from config import get_settings
