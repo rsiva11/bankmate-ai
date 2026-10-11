@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+chroma_db/
+.cache/
+models/
+*.log
+data/sbi_docs/*.pdf
+data/sbi_docs/*.html
+data/sbi_docs/*.txt
+data/sbi_docs/sources.json
+.DS_Store

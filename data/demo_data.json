@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "notice": "ALL DATA IS SYNTHETIC. Names, accounts and transactions are fictional.",
+    "currency": "INR"
+  },
+  "customers": [
+    {
+      "customer_id": "CUST1001", "name": "R Siva", "account_type": "Savings",
+      "account_masked": "XXXX-XXXX-1001", "balance": 85420.50, "monthly_income": 75000, "existing_emi": 8000,
+      "transactions": [
+        {"txn_id": "T1001-01", "timestamp": "2026-09-30T09:00:00", "description": "Salary Credit - Demo Corp", "amount": 75000.00, "type": "credit", "category": "income", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-02", "timestamp": "2026-10-01T10:15:00", "description": "House Rent", "amount": 18000.00, "type": "debit", "category": "housing", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-03", "timestamp": "2026-10-02T18:40:00", "description": "FreshMart Groceries", "amount": 2450.75, "type": "debit", "category": "groceries", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-04", "timestamp": "2026-10-03T08:20:00", "description": "Electricity Bill", "amount": 1830.00, "type": "debit", "category": "utilities", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-05", "timestamp": "2026-10-04T20:05:00", "description": "Spice Route Restaurant", "amount": 1260.00, "type": "debit", "category": "dining", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-06", "timestamp": "2026-10-05T07:30:00", "description": "Metro Card Recharge", "amount": 500.00, "type": "debit", "category": "transport", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-07", "timestamp": "2026-10-06T11:00:00", "description": "Car Loan EMI", "amount": 8000.00, "type": "debit", "category": "emi", "location": "Chennai", "risk_indicator": null},
+        {"txn_id": "T1001-08", "timestamp": "2026-10-08T19:10:00", "description": "StreamBox Subscription", "amount": 499.00, "type": "debit", "category": "entertainment", "location": "Online", "risk_indicator": null}
+      ]
+    },
+    {
+      "customer_id": "CUST1002", "name": "Thamizhini", "account_type": "Savings",
+      "account_masked": "XXXX-XXXX-1002", "balance": 124300.75, "monthly_income": 95000, "existing_emi": 15000,
+      "transactions": [
+        {"txn_id": "T1002-01", "timestamp": "2026-09-30T09:00:00", "description": "Salary Credit - Sample Tech", "amount": 95000.00, "type": "credit", "category": "income", "location": "Bengaluru", "risk_indicator": null},
+        {"txn_id": "T1002-02", "timestamp": "2026-10-02T12:30:00", "description": "Home Loan EMI", "amount": 15000.00, "type": "debit", "category": "emi", "location": "Bengaluru", "risk_indicator": null},
+        {"txn_id": "T1002-03", "timestamp": "2026-10-04T17:45:00", "description": "City Supermarket", "amount": 3120.40, "type": "debit", "category": "groceries", "location": "Bengaluru", "risk_indicator": null},
+        {"txn_id": "T1002-04", "timestamp": "2026-10-07T02:10:00", "description": "GlobalWire Overseas Transfer", "amount": 85000.00, "type": "debit", "category": "transfer", "location": "Overseas", "risk_indicator": "foreign_location"},
+        {"txn_id": "T1002-05", "timestamp": "2026-10-08T23:01:00", "description": "QuickShop Online", "amount": 2999.00, "type": "debit", "category": "shopping", "location": "Online", "risk_indicator": null},
+        {"txn_id": "T1002-06", "timestamp": "2026-10-08T23:04:00", "description": "GadgetHub Online", "amount": 4599.00, "type": "debit", "category": "shopping", "location": "Online", "risk_indicator": null},
+        {"txn_id": "T1002-07", "timestamp": "2026-10-08T23:07:00", "description": "TravelNow Bookings", "amount": 6200.00, "type": "debit", "category": "travel", "location": "Online", "risk_indicator": null},
+        {"txn_id": "T1002-08", "timestamp": "2026-10-08T23:10:00", "description": "DigiGames Store", "amount": 1799.00, "type": "debit", "category": "entertainment", "location": "Online", "risk_indicator": null}
+      ]
+    },
+    {
+      "customer_id": "CUST1003", "name": "Malathi", "account_type": "Savings",
+      "account_masked": "XXXX-XXXX-1003", "balance": 18950.00, "monthly_income": 42000, "existing_emi": 16000,
+      "transactions": [
+        {"txn_id": "T1003-01", "timestamp": "2026-09-30T09:00:00", "description": "Salary Credit - Demo Retail", "amount": 42000.00, "type": "credit", "category": "income", "location": "Mumbai", "risk_indicator": null},
+        {"txn_id": "T1003-02", "timestamp": "2026-10-01T10:00:00", "description": "Personal Loan EMI", "amount": 16000.00, "type": "debit", "category": "emi", "location": "Mumbai", "risk_indicator": null},
+        {"txn_id": "T1003-03", "timestamp": "2026-10-02T14:20:00", "description": "ValueMart Groceries", "amount": 1980.00, "type": "debit", "category": "groceries", "location": "Mumbai", "risk_indicator": null},
+        {"txn_id": "T1003-04", "timestamp": "2026-10-03T21:15:00", "description": "LuckySpin Gaming Wallet", "amount": 4999.00, "type": "debit", "category": "gaming", "location": "Online", "risk_indicator": "new_beneficiary"},
+        {"txn_id": "T1003-05", "timestamp": "2026-10-05T21:40:00", "description": "LuckySpin Gaming Wallet", "amount": 4999.00, "type": "debit", "category": "gaming", "location": "Online", "risk_indicator": null},
+        {"txn_id": "T1003-06", "timestamp": "2026-10-07T22:05:00", "description": "LuckySpin Gaming Wallet", "amount": 4999.00, "type": "debit", "category": "gaming", "location": "Online", "risk_indicator": null},
+        {"txn_id": "T1003-07", "timestamp": "2026-10-08T08:30:00", "description": "Local Bus Pass", "amount": 650.00, "type": "debit", "category": "transport", "location": "Mumbai", "risk_indicator": null}
+      ]
+    },
+    {
+      "customer_id": "CUST1004", "name": "Akilan", "account_type": "Savings",
+      "account_masked": "XXXX-XXXX-1004", "balance": 345000.00, "monthly_income": 150000, "existing_emi": 10000,
+      "transactions": [
+        {"txn_id": "T1004-01", "timestamp": "2026-09-30T09:00:00", "description": "Salary Credit - Sample Consulting", "amount": 150000.00, "type": "credit", "category": "income", "location": "Hyderabad", "risk_indicator": null},
+        {"txn_id": "T1004-02", "timestamp": "2026-10-01T11:30:00", "description": "Two-Wheeler Loan EMI", "amount": 10000.00, "type": "debit", "category": "emi", "location": "Hyderabad", "risk_indicator": null},
+        {"txn_id": "T1004-03", "timestamp": "2026-10-02T19:00:00", "description": "GreenLeaf Organic Store", "amount": 3850.00, "type": "debit", "category": "groceries", "location": "Hyderabad", "risk_indicator": null},
+        {"txn_id": "T1004-04", "timestamp": "2026-10-04T13:10:00", "description": "Apartment Maintenance", "amount": 6500.00, "type": "debit", "category": "housing", "location": "Hyderabad", "risk_indicator": null},
+        {"txn_id": "T1004-05", "timestamp": "2026-10-06T20:30:00", "description": "Lakeview Dining", "amount": 2780.00, "type": "debit", "category": "dining", "location": "Hyderabad", "risk_indicator": null},
+        {"txn_id": "T1004-06", "timestamp": "2026-10-08T10:00:00", "description": "Mutual Fund SIP", "amount": 15000.00, "type": "debit", "category": "investment", "location": "Online", "risk_indicator": null}
+      ]
+    }
+  ]
+}
